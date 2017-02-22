@@ -1,4 +1,18 @@
-<h1 class="page-header">Inicio <small>Bienvenido</small></h1>
+<h1 class="page-header">
+	<% if controller_name == 'welcome' and method_name = 'index' %>
+  		Inicio <small>Bienvenido</small>
+	<% end %>
+
+	<% if controller_name != 'registrations' %>
+  		Usuarios <small>Iniciar Sesión</small>
+	<% end %>
+
+	<% if controller_name != 'sessions' %>
+  		Usuarios <small>Registrarse</small>
+	<% end %>
+
+
+</h1>
 <ol class="breadcrumb">
     <li class="active">
 	    <i class="fa fa-dashboard"></i> Dashboard
