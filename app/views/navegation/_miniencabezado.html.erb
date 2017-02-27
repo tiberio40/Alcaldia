@@ -1,13 +1,13 @@
 <h1 class="page-header">
-	<% if controller_name == 'welcome' and method_name = 'index' %>
+	<% if controller_name == 'welcome'%>
   		Inicio <small>Bienvenido</small>
 	<% end %>
 
-	<% if controller_name != 'registrations' %>
+	<% if controller_name != 'registrations' && controller_name != 'welcome'%>
   		Usuarios <small>Iniciar Sesión</small>
 	<% end %>
 
-	<% if controller_name != 'sessions' %>
+	<% if controller_name != 'sessions' && controller_name != 'welcome'%>
   		Usuarios <small>Registrarse</small>
 	<% end %>
 

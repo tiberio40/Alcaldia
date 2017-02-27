@@ -1,44 +1,76 @@
 <%= render "navegation/miniencabezado"%>
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
-
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Informacion Personal</a></li>
+  <li><a data-toggle="tab" href="#menu1">Contraseñas</a></li>
+  <li><a data-toggle="tab" href="#menu2">Desactivar Cuenta</a></li>
+</ul>
 
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true %>
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+     <div class="panel panel-success" id="tamañodiv">
+      <div class="panel-heading">Informacion Personal</div>
+      <div class="panel-body">
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">Nombre y Apellidos</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">Correo Electronico</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+        </div>
+      </div>
+    </div>
   </div>
-
-  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
-    <%= f.password_field :password, autocomplete: "off" %>
-    <% if @minimum_password_length %>
-      <br />
-      <em><%= @minimum_password_length %> characters minimum</em>
-    <% end %>
+  <div id="menu1" class="tab-pane fade">
+     <div class="panel panel-success" id="tamañodiv">
+        <div class="panel-heading">Cambio de Contraseña</div>
+        <div class="panel-body">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Nueva Contraseña</span>
+            <%= f.password_field :password, autocomplete: "off", class: 'form-control', placeholder: "Minimo 6 Caracteres" %> 
+          </div>
+          <% if @minimum_password_length %>
+            <br />
+            <em><%= @minimum_password_length %> Caracteres minimos</em>
+          <% end %>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Confirmar Contraseña</span>
+            <%= f.password_field :password_confirmation, autocomplete: "off", class: 'form-control', placeholder: "Debe ser la misma"%>
+          </div>
+        </div>
+    </div>
+  
   </div>
+  <div id="menu2" class="tab-pane fade">
+    <div class="panel panel-danger">
+      <div class="panel-heading">Cancelar mi Cuenta</div>
+      <div class="panel-body">
 
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %>
+      </div>
+    </div>
   </div>
-
-  <div class="field">
-    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-    <%= f.password_field :current_password, autocomplete: "off" %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit "Update" %>
-  </div>
-<% end %>
-
-<h3>Cancel my account</h3>
-
-<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
-
-<%= link_to "Back", :back %>
+<div class="panel panel-primary" id="tamañodiv">
+  <div class="panel-heading">Conformar Cambios</div>
+    <div class="panel-body">
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Confirmar Cambios</span>
+        <%= f.password_field :current_password, autocomplete: "off", class: 'form-control', placeholder: "Digita tu contraseña actual para guardar los cambios" %>
+      </div>
+      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+      <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+      <% end %>
+      <br>
+      <div class="actions">
+        <%= f.submit "Actualizar", class: 'btn btn-success' %>
+      </div>
+        <% end %>
+    </div>
+</div>
+<nav aria-label="...">
+  <ul class="pager">
+    <li class="previous"><%= link_to "<span aria-hidden='true'>&larr;</span>Salir".html_safe, root_path%></li>
+  </ul>
+</nav>
