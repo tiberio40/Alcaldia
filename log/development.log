@@ -21954,3 +21954,384 @@ Processing by Devise::RegistrationsController#update as HTML
 Completed 200 OK in 200ms (Views: 63.6ms | ActiveRecord: 0.5ms)
 
 
+Started DELETE "/users/sign_out" for 192.168.1.8 at 2017-02-27 00:52:00 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hZ84BZokR1rtIl8BlIkpkbaEk8p+VwcioMYO/Qi67MSZvXjXdR+nB4dG7o05TaAkIGIxQo+GqfFEeNgNgioSpw=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 4 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://192.168.1.4:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 192.168.1.8 at 2017-02-27 00:52:00 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered navegation/_navbar.html.erb (0.8ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 75ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:01 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 67ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:22 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+  Rendered navegation/_navbar.html.erb (1.4ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:23 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (1.0ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.8 at 2017-02-27 00:52:26 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered navegation/_navbar.html.erb (1.4ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.9ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:28 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.6ms)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.8 at 2017-02-27 00:52:29 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered navegation/_navbar.html.erb (1.6ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.8 at 2017-02-27 00:52:33 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.8 at 2017-02-27 00:52:34 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.7ms)
+Completed 200 OK in 53ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:35 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+  Rendered navegation/_navbar.html.erb (1.1ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.7ms)
+Completed 200 OK in 76ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:37 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:46 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+  Rendered navegation/_navbar.html.erb (0.6ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:52:58 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.9ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:53:37 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered navegation/_navbar.html.erb (2.6ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.7ms)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:53:51 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:53:59 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (352.8ms)
+Completed 500 Internal Server Error in 361ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user_path' for #<#<Class:0x007f9fb8b77ed8>:0x007f9fb70e9a58>):
+    44:                           <li><span class="fa fa-check text-success"></span> Save your favorites</li>
+    45:                           <li><a href="/read-more/"><u>Read more</u></a></li>
+    46:                       </ul>
+    47:                       <p><%= link_to "Registrarse".html_safe, user_path, class:'btn btn-info btn-block'%></li></p>
+    48:                   </div>
+    49:               </div>
+    50:           </div>
+  
+app/views/devise/sessions/new.html.erb:47:in `_app_views_devise_sessions_new_html_erb___1946487188920702397_70161955138320'
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.3ms)
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:54:28 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (378.8ms)
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sing_up_user_path' for #<#<Class:0x007f9fb8b77ed8>:0x007f9fb8ac5008>):
+    44:                           <li><span class="fa fa-check text-success"></span> Save your favorites</li>
+    45:                           <li><a href="/read-more/"><u>Read more</u></a></li>
+    46:                       </ul>
+    47:                       <p><%= link_to "Registrarse".html_safe, sing_up_user_path, class:'btn btn-info btn-block'%></li></p>
+    48:                   </div>
+    49:               </div>
+    50:           </div>
+  
+app/views/devise/sessions/new.html.erb:47:in `_app_views_devise_sessions_new_html_erb___1946487188920702397_70161945189640'
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.0ms)
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:55:17 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (340.7ms)
+Completed 500 Internal Server Error in 354ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `path_user_sing_up' for #<#<Class:0x007f9fb8b77ed8>:0x007f9fb94011f8>):
+    44:                           <li><span class="fa fa-check text-success"></span> Save your favorites</li>
+    45:                           <li><a href="/read-more/"><u>Read more</u></a></li>
+    46:                       </ul>
+    47:                       <p><%= link_to "Registrarse".html_safe, path_user_sing_up, class:'btn btn-info btn-block'%></li></p>
+    48:                   </div>
+    49:               </div>
+    50:           </div>
+  
+app/views/devise/sessions/new.html.erb:47:in `_app_views_devise_sessions_new_html_erb___1946487188920702397_70161992240820'
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.4ms)
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:56:09 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+  Rendered navegation/_navbar.html.erb (0.9ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:56:12 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.6ms)
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:56:13 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:56:13 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+  Rendered navegation/_navbar.html.erb (0.6ms)
+  Rendered navegation/_verticalnavbar.html.erb (1.0ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:56:13 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered navegation/_navbar.html.erb (1.3ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.6ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:56:14 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:58:17 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (345.7ms)
+Completed 500 Internal Server Error in 354ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registrations_path' for #<#<Class:0x007f9fb8b77ed8>:0x007f9fb8831e90>
+Did you mean?  new_user_registration_path
+               new_user_registration_url
+               cancel_user_registration_path
+               new_registration_path):
+    44:                           <li><span class="fa fa-check text-success"></span> Save your favorites</li>
+    45:                           <li><a href="/read-more/"><u>Read more</u></a></li>
+    46:                       </ul>
+    47:                       <p><%= link_to "Registrarse".html_safe, new_user_registrations_path, class:'btn btn-info btn-block'%></li></p>
+    48:                   </div>
+    49:               </div>
+    50:           </div>
+  
+app/views/devise/sessions/new.html.erb:47:in `_app_views_devise_sessions_new_html_erb___1946487188920702397_70161957565320'
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/tiberio40/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.9ms)
+Started GET "/users/sign_in" for 192.168.1.8 at 2017-02-27 00:59:19 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.4ms)
+  Rendered navegation/_navbar.html.erb (0.7ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.5ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 192.168.1.8 at 2017-02-27 00:59:21 -0500
+Cannot render console from 192.168.1.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered navegation/_miniencabezado.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.9ms)
+  Rendered navegation/_navbar.html.erb (0.9ms)
+  Rendered navegation/_verticalnavbar.html.erb (0.7ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
