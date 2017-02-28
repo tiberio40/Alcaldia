@@ -1,5 +1,5 @@
 <%= render "navegation/miniencabezado"%>
-<div class="panel panel-primary" style="width: 97%;">
+<div class="panel panel-primary" id="tamañodiv">
   <div class="panel panel-heading">
     Panel de Registro
   </div>
@@ -7,32 +7,42 @@
       <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= devise_error_messages! %>
 
-    <div class="field">
-      <%= f.label :email %><br />
-       <%= f.email_field :email, autofocus: true %>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">Nombre y Apellidos</span>
+      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
     </div>
-
-    <div class="field">
-      <%= f.label :password %>
-      <% if @minimum_password_length %>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">Correo Electronico</span>
+      <%= f.email_field :email, autofocus: true, class: 'form-control' %>
+    </div>
+    <% if @minimum_password_length %>
       <em>(<%= @minimum_password_length %> characters minimum)</em>
       <% end %><br />
-      <%= f.password_field :password, autocomplete: "off" %>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">Contraseña</span>
+      <%= f.password_field :password, autocomplete: "off", class: 'form-control', placeholder:'Minimo 6 caracteres' %>
     </div>
-
-    <div class="field">
-      <%= f.label :password_confirmation %><br />
-      <%= f.password_field :password_confirmation, autocomplete: "off" %>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">Confirmación Contraseña</span>
+      <%= f.password_field :password_confirmation, autocomplete: "off", class: 'form-control', placeholder:'Minimo 6 caracteres' %>
     </div>
-
+    <br>
     <div class="actions">
-      <%= f.submit "Sign up" %>
+      <%= f.submit "Registrarse", class: "btn btn-success" %>
     </div>
   <% end %>
 
-  <%= render "devise/shared/links" %>
+  
   </div>
 
 </div>
+
+<nav aria-label="...">
+    <ul class="pager">
+      <li class="previous"><%= link_to "<span aria-hidden='true'>&larr;</span>Salir".html_safe, new_user_session_path%></li>
+    </ul>
+  </nav>
 
 
