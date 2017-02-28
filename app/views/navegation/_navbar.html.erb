@@ -7,7 +7,7 @@
       <ul class="nav navbar-nav navbar-right">
         <%if user_signed_in? %>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Sesión Iniciada<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <%= current_user.name%><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li>
                     <li><%= link_to "Editar Información", edit_user_registration_path %></li>
